@@ -1,6 +1,22 @@
 header {
-    background: #8E6B23;
-padding: 60px 0;
+background-image: url(fundo\ 02.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+padding: 90px 0;
+
+}
+
+.cabecalho{
+    height: 100px;
+}
+
+body {
+    background-image:url(caveira\ fundo.jfif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -23,31 +39,28 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #000000;
+    color: #e9c70ab2;
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
-
 }
 
 .produtos {
-    width: 940px;
+    width: 1000px;
     margin: 0 auto;
     padding: 80px 0;
+  
+    
 }
 
 .produtos li {
-    display: inline-block;
-    text-align: center;
-    width: 33%;
-    vertical-align: top;
-    margin: 0 1.5%";"
-    padding: 40px 40px;
-    box-sizing: border-box;
-    border: 2px;
-    border-radius: 10px;
-    border-color: #000000;
+display:inline-block;
+text-align: center;
+width: 30%;
+border:2px solid #000000;
+
 }
+
 
 .produtos h2 {
     font-size: 40px;
@@ -55,13 +68,14 @@ nav a {
 }
 
 .produto-descricao {
-    font-size: 30px;
+    font-size: 18px;
 }
 
 .produto-preco {
     font-size: 30px;
     font-weight: bold;
     margin-top: 30px;
+    
 }
 footer {
 	text-align: center;
