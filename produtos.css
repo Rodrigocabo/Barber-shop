@@ -1,5 +1,5 @@
 header {
-background-image: url(fundo\ 02.jpg);
+background-image: url(fundo05.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
@@ -7,12 +7,19 @@ padding: 90px 0;
 
 }
 
+
+.box {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+
 .cabecalho{
-    height: 100px;
+    height: 200px;
 }
 
 body {
-    background-image:url(caveira\ fundo.jfif);
+    background-image:url(fundo\ 06.jpg.crdownload);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
