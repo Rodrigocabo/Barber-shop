@@ -1,12 +1,11 @@
 header {
-background-image: url(fundo05.jpg);
+background-image: url(extra01.jpg);
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 padding: 90px 0;
 
 }
-
 
 .box {
     display: flex;
@@ -16,15 +15,18 @@ padding: 90px 0;
 
 .cabecalho{
     height: 200px;
+    
 }
 
 body {
-    background-image:url(fundo\ 06.jpg.crdownload);
+    background-image:url(extra\ extra.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    
 }
+
 
 
 .caixa {
@@ -72,7 +74,9 @@ border:2px solid #000000;
 .produtos h2 {
     font-size: 40px;
     font-weight: bold;
+
 }
+
 
 .produto-descricao {
     font-size: 18px;
