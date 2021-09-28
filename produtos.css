@@ -14,8 +14,9 @@ padding: 90px 0;
 
 
 .cabecalho{
-    height: 200px;
-    
+    height: 300px;
+    padding: 20px;
+
 }
 
 body {
@@ -38,7 +39,8 @@ body {
 nav {
     position: absolute;
     top: 110px;
-    right: 0;
+    left: 30%;
+
 }
 
 nav li {
@@ -48,10 +50,12 @@ nav li {
 
 nav a {
     text-transform: uppercase;
-    color: #e9c70ab2;
+    color: #000000;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 30px;
     text-decoration: none;
+    
+    
 }
 
 .produtos {
@@ -67,7 +71,12 @@ display:inline-block;
 text-align: center;
 width: 30%;
 border:2px solid #000000;
-
+display: inline-block;
+vertical-align: top;
+margin: 0 1.5%;
+padding: 30px 20px;
+box-sizing: border-box;
+border-radius: 10px;
 }
 
 
