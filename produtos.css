@@ -1,110 +1,133 @@
 header {
-background-image: url(extra01.jpg);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-padding: 90px 0;
-
-}
-
-.box {
-    display: flex;
-    flex-flow: row wrap;
-  }
-
-
-.cabecalho{
-    height: 300px;
-    padding: 20px;
-
-}
-
-body {
-    background-image:url(extra\ extra.jpg);
+    background-image: url(extra01.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    padding: 90px 0;
     
-}
-
-
-
-.caixa {
-    position: relative;
-    width: 940px;
-    margin: 0 auto;
-}
-
-nav {
-    position: absolute;
-    top: 110px;
-    left: 30%;
-
-}
-
-nav li {
-    display: inline;
-    margin: 0 0 0 15px;
-}
-
-nav a {
-    text-transform: uppercase;
-    color: #000000;
-    font-weight: bold;
-    font-size: 30px;
-    text-decoration: none;
+    }
+    
+    h1 img{
+        -webkit-filter: drop-shadow(5px 5px 5px #222);
+        filter: drop-shadow(5px 5px 5px rgb(145, 20, 4));
+    
+    }
+    
+    li img{
+        -webkit-filter: drop-shadow(5px 5px 5px #222);
+        filter: drop-shadow(5px 5px 5px rgba(14, 110, 255, 0.418));
+    }
+    
+    .box {
+        display: flex;
+        flex-flow: row wrap;
+      }
     
     
-}
-
-.produtos {
-    width: 1000px;
-    margin: 0 auto;
-    padding: 80px 0;
-  
+    .cabecalho{
+        height: 300px;
+        padding: 20px;
     
-}
-
-.produtos li {
-display:inline-block;
-text-align: center;
-width: 30%;
-border:2px solid #000000;
-display: inline-block;
-vertical-align: top;
-margin: 0 1.5%;
-padding: 30px 20px;
-box-sizing: border-box;
-border-radius: 10px;
-}
-
-
-.produtos h2 {
-    font-size: 40px;
-    font-weight: bold;
-
-}
-
-
-.produto-descricao {
-    font-size: 18px;
-}
-
-.produto-preco {
-    font-size: 30px;
-    font-weight: bold;
-    margin-top: 30px;
+    }
     
-}
-footer {
-	text-align: center;
-	background: url("bg.jpg");
-	padding: 40px 0;
-}
-
-.copyright {
-	color: #FFFFFF;
-	font-size: 13px;
-	margin: 20px 0 0;
-}
+    body {
+        background-image:url(extra\ extra.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+    }
+    
+    
+    
+    .caixa {
+        position: relative;
+        width: 940px;
+        margin: 0 auto;
+    }
+    
+    nav {
+        position: absolute;
+        top: 110px;
+        left: 30%;
+    
+    }
+    
+    nav li {
+        display: inline;
+        margin: 0 0 0 15px;
+    }
+    
+    nav a {
+        text-transform: uppercase;
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 30px;
+        text-decoration: none;
+        background-color: #5c2404c0;
+        border: 5px rgba(44, 14, 1, 0.63) solid ;
+        border-radius: 20px;
+        
+        
+    }
+    
+    .produtos {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 80px 0;
+        background-color: rgba(0, 0, 0, 0.658);
+      
+        
+    }
+    
+    .produtos li {
+    display:inline-block;
+    text-align: center;
+    width: 30%;
+    border:2px solid #fcfcfc8a;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    }
+    
+    
+    .produtos h2 {
+        font-size: 40px;
+        font-weight: bold;
+        color: blanchedalmond;
+        border: 5px rgba(5, 0, 0, 0.671) solid;
+        background-color: rgba(85, 25, 3, 0.432);
+        border-radius: 20px;
+    
+    }
+    
+    
+    .produto-descricao {
+        font-size: 18px;
+        color: cornsilk;
+    }
+    
+    .produto-preco {
+        font-size: 30px;
+        font-weight: bold;
+        margin-top: 30px;
+        color: cornsilk;
+        
+    }
+    footer {
+        text-align: center;
+        background: url("bg.jpg");
+        padding: 40px 0;
+        color: blanchedalmond;
+    }
+    
+    .copyright {
+        color: #FFFFFF;
+        font-size: 13px;
+        margin: 20px 0 0;
+    }
+    
