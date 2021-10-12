@@ -95,13 +95,13 @@ header {
     border-radius: 10px;
     }
     .produtos li :hover {
-        border-color: aqua;
+        border-color: rgb(7, 7, 7);
 
 
     }
     
     
-    .produtos h2 {
+    .produtos h2:hover {
         font-size: 40px;
         font-weight: bold;
         color: blanchedalmond;
@@ -109,6 +109,9 @@ header {
         background-color: rgba(85, 25, 3, 0.432);
         border-radius: 20px;
     
+    }
+    .produtos h2:hover{
+        border-color: rgb(10, 10, 10);
     }
     
     
